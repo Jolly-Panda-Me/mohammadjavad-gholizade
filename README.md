@@ -4,7 +4,7 @@
 
 ### Senior Unity Developer — XR Specialist
 
-[![Live Site](https://img.shields.io/badge/Live-usef--farahmand.github.io-5C94FC?style=for-the-badge)](https://usef-farahmand.github.io/mohammadjavad-gholizade/)
+[![Live Site](https://img.shields.io/badge/Live-usef--farahmand.github.io-5C94FC?style=for-the-badge)](https://me.jollypanda.ir/bio/mohammadjavad-gholizade)
 [![Email](https://img.shields.io/badge/Email-Say%20Hi-FFF8E7?style=for-the-badge&logo=gmail&logoColor=E52521)](mailto:mjgholizade.iftp@gmail.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-746E8C?style=for-the-badge)](LICENSE)
 
@@ -29,7 +29,7 @@ this repository is the source for my personal portfolio: a bilingual (English / 
 ## 🕹️ Selected Work
 
 VR training simulators for industrial and medical clients, architectural AR, and a handful of
-hyper-casual games — see the [live site](https://usef-farahmand.github.io/mohammadjavad-gholizade/#projects)
+hyper-casual games — see the [live site](https://me.jollypanda.ir/bio/mohammadjavad-gholizade)
 for the current lineup.
 
 ## 📬 Get in Touch
