@@ -1,0 +1,55 @@
+/* =========================================================
+   Fonts
+
+   This site's brief calls for a retro 2D-platformer look, which
+   conventionally uses a pixel bitmap font (e.g. "Press Start 2P").
+   No such font file is available locally in this environment and
+   there's no network access here to fetch one from Google Fonts,
+   so it is NOT self-hosted or loaded from a CDN — that would break
+   the "no external font requests" rule carried over from the sibling
+   projects.
+
+   Instead, the retro-game feel comes from a monospace system stack
+   styled with heavy letter-spacing, uppercase, and hard pixel-style
+   borders/shadows (see style.css/animations.css), not from a literal
+   pixel typeface. If a "Press Start 2P" (or similar) .woff2 file is
+   supplied later, drop it in assets/fonts/ and add a @font-face rule
+   here — --font-display in style.css is the only place that needs
+   to change.
+   ========================================================= */
+
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../assets/fonts/Vazirmatn-ExtraBold.woff2") format("woff2");
+}

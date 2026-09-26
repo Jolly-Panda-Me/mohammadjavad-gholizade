@@ -1,0 +1,524 @@
+{
+  "projects": [
+    {
+      "id": "rombach-regulator-vr",
+      "title": {
+        "en": "Rombach Regulator VR Simulation",
+        "fa": "Rombach Regulator VR Simulation"
+      },
+      "client": {
+        "en": "Khorasan Razavi Gas Company",
+        "fa": "شرکت گاز خراسان رضوی"
+      },
+      "description": {
+        "en": "VR simulation for training staff on maintaining and operating Rombach regulator equipment.",
+        "fa": "شبیه‌سازی واقعیت مجازی برای آموزش نگهداری و باز و بسته‌کردن تجهیزات رگولاتور رومباخ."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/rombach-regulator-vr.jpg",
+      "featured": false,
+      "url": "https://player.arvancloud.ir/index.html?config=https://vrprojects.arvanvod.ir/Zg8pn1K6am/08JrxNa7bl/origin_config.json"
+    },
+    {
+      "id": "gear-master-vr",
+      "title": {
+        "en": "Gear Master VR",
+        "fa": "Gear Master VR"
+      },
+      "client": {
+        "en": "Technical and Vocational Training Organization (TVTO)",
+        "fa": "سازمان فنی و حرفه‌ای کشور"
+      },
+      "description": {
+        "en": "VR training module for maintaining and repairing the Hyundai 6AF1G automatic gearbox. Nominee & finalist, XR Awards London 2024.",
+        "fa": "ماژول آموزشی واقعیت مجازی برای تعمیر و نگهداری گیربکس اتوماتیک 1GF6A خودروی هیوندای. نامزد و فینالیست XR Awards لندن ۲۰۲۴."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/gear-master-vr.jpg",
+      "featured": true,
+      "url": "https://youtu.be/xNtjbTmy5Jk"
+    },
+    {
+      "id": "oh2-pump",
+      "title": {
+        "en": "OH2 Pump",
+        "fa": "OH2 Pump"
+      },
+      "client": {
+        "en": "Isfahan Oil Refinery",
+        "fa": "پالایشگاه نفت اصفهان"
+      },
+      "description": {
+        "en": "Interactive VR simulation for training on OH2 pump repairs and water transfer line startup.",
+        "fa": "شبیه‌سازی تعاملی در واقعیت مجازی برای آموزش تعمیرات پمپ OH2 و مراحل راه‌اندازی خطوط انتقال آب."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/oh2-pump.jpg",
+      "featured": false,
+      "url": "https://player.arvancloud.ir/index.html?config=https://vrprojects.arvanvod.ir/Zg8pn1K6am/Gbk5V7zYPK/origin_config.json"
+    },
+    {
+      "id": "railway-wagon-repair",
+      "title": {
+        "en": "Immersive Railway Wagon Repair",
+        "fa": "Immersive Railway Wagon Repair"
+      },
+      "client": {
+        "en": "Khorasan Razavi Railway",
+        "fa": "راه‌آهن خراسان رضوی"
+      },
+      "description": {
+        "en": "Technical VR simulation of freight-wagon inspection, focused on visual accuracy and operational steps.",
+        "fa": "شبیه‌سازی فنی بازرسی واگن‌های باری با تمرکز بر دقت بصری و مراحل عملیاتی."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/railway-wagon-repair.jpg",
+      "featured": false,
+      "url": "https://youtu.be/__JJUgvF894"
+    },
+    {
+      "id": "accident-rescue-simulation",
+      "title": {
+        "en": "Accident & Rescue Simulation",
+        "fa": "Accident & Rescue Simulation"
+      },
+      "client": {
+        "en": "Iranian Red Crescent",
+        "fa": "هلال احمر کشور"
+      },
+      "description": {
+        "en": "Full PC simulation of accidents, victim rescue, and first-aid training for the Iranian Red Crescent.",
+        "fa": "شبیه‌سازی PC تصادفات، نجات افراد و آموزش امداد به‌صورت کامل برای هلال احمر کشور."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/accident-rescue-simulation.jpg",
+      "featured": false,
+      "url": "https://player.arvancloud.ir/index.html?config=https://vrprojects.arvanvod.ir/Zg8pn1K6am/A96Q0j7yvb/origin_config.json"
+    },
+    {
+      "id": "steel-factory-vr",
+      "title": {
+        "en": "Steel Factory VR",
+        "fa": "Steel Factory VR"
+      },
+      "client": {
+        "en": "Mobarakeh Steel Company, Isfahan",
+        "fa": "فولاد مبارکه اصفهان"
+      },
+      "description": {
+        "en": "VR simulation of hazardous scenarios, training, and operations inside the Isfahan steel plant.",
+        "fa": "شبیه‌سازی واقعیت مجازی سناریوهای خطرناک، آموزش و عملیات‌ها در کارخانه فولاد اصفهان."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/steel-factory-vr.jpg",
+      "featured": false,
+      "url": "https://youtu.be/YiUfSWawRGQ"
+    },
+    {
+      "id": "dental-implant-vr",
+      "title": {
+        "en": "Implant",
+        "fa": "Implant"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "Interactive VR training for dental implants — helping students and dentists learn surgical techniques step by step.",
+        "fa": "آموزش تعاملی ایمپلنت دندان با استفاده از واقعیت مجازی، ویژه دانشجویان و دندان‌پزشکان برای یادگیری گام‌به‌گام تکنیک‌های جراحی."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/dental-implant-vr.jpg",
+      "featured": false,
+      "url": "https://youtube.com/shorts/-7qG4LFW_PU"
+    },
+    {
+      "id": "upsilon-vr",
+      "title": {
+        "en": "Upsilon VR",
+        "fa": "Upsilon VR"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A therapeutic VR game for post-surgery hand rehabilitation, built around physical therapy exercises.",
+        "fa": "بازی درمانی در واقعیت مجازی برای توانبخشی دست بیماران پس از جراحی، مبتنی بر تمرینات فیزیکی."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/upsilon-vr.jpg",
+      "featured": false,
+      "url": "https://youtu.be/yy0I11DQ2YM"
+    },
+    {
+      "id": "xr-shooter-multiplayer",
+      "title": {
+        "en": "XR Shooter Multiplayer",
+        "fa": "XR Shooter Multiplayer"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "An XR multiplayer shooter blending real and virtual environments as players battle it out.",
+        "fa": "بازی مولتی‌پلیر XR که با ترکیب محیط واقعی و واقعیت مجازی، بازیکنان به نبرد می‌پردازند."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/xr-shooter-multiplayer.jpg",
+      "featured": false,
+      "url": "https://youtube.com/shorts/bJye9lv8_zA"
+    },
+    {
+      "id": "independence-hall-vr",
+      "title": {
+        "en": "Independence Hall VR",
+        "fa": "Independence Hall VR"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A VR simulation recreating American Independence Day events at Independence Hall.",
+        "fa": "شبیه‌سازی وقایع روز استقلال آمریکا در تالار استقلال."
+      },
+      "category": [
+        {
+          "id": "vr",
+          "en": "VR",
+          "fa": "واقعیت مجازی"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/independence-hall-vr.jpg",
+      "featured": false,
+      "url": "https://vrprojects.arvanvod.ir/Zg8pn1K6am/KAyPJKVQXw/origin_m469eEwOQGzz9Myvh2Os2vCs0On3epbdckRGriO4.mp4"
+    },
+    {
+      "id": "cyrus-vision-ar",
+      "title": {
+        "en": "Cyrus Vision AR",
+        "fa": "Cyrus Vision AR"
+      },
+      "client": {
+        "en": "Amazon Building, Italy",
+        "fa": "پروژه ساختمان آمازون، ایتالیا"
+      },
+      "description": {
+        "en": "An architectural AR app placing centimeter-accurate 3D models over buildings under construction, with a direct AutoCAD export pipeline, QR generation, and instant conversion into AR.",
+        "fa": "اپلیکیشن AR معماری با جانمایی سه‌بعدی سانتی‌متری روی سازه‌های در حال ساخت، خروجی مستقیم مدل از AutoCAD، تولید QR و تبدیل خودکار و فوری به اپ AR."
+      },
+      "category": [
+        {
+          "id": "ar",
+          "en": "AR",
+          "fa": "واقعیت افزوده"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/cyrus-vision-ar.jpg",
+      "featured": true
+    },
+    {
+      "id": "ar-food",
+      "title": {
+        "en": "AR Food",
+        "fa": "AR Food"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A restaurant AR menu app — view an online 3D model of a dish before ordering.",
+        "fa": "اپلیکیشن منوی غذای رستوران به‌صورت AR و آنلاین و مشاهده مدل سه‌بعدی غذا پیش از سفارش."
+      },
+      "category": [
+        {
+          "id": "ar",
+          "en": "AR",
+          "fa": "واقعیت افزوده"
+        }
+      ],
+      "technologies": [],
+      "links": [],
+      "image": "assets/images/projects/ar-food.jpg",
+      "featured": false
+    },
+    {
+      "id": "dungeon-join",
+      "title": {
+        "en": "Dungeon Join",
+        "fa": "Dungeon Join"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A hyper-casual game.",
+        "fa": "بازی هایپرکژوال."
+      },
+      "category": [
+        {
+          "id": "games",
+          "en": "Games",
+          "fa": "بازی‌ها"
+        }
+      ],
+      "technologies": [],
+      "links": [
+        {
+          "label": "CafeBazaar",
+          "url": "https://cafebazaar.ir/app/com.wd.dungeonrun"
+        },
+        {
+          "label": "PlayStore",
+          "url": "https://play.google.com/store/apps/details?id=com.wd.dungeonrun"
+        }
+      ],
+      "image": "assets/images/projects/dungeon-join.jpg",
+      "featured": false
+    },
+    {
+      "id": "nailer-mailer",
+      "title": {
+        "en": "Nailer Mailer",
+        "fa": "Nailer Mailer"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A hyper-casual game.",
+        "fa": "بازی هایپرکژوال."
+      },
+      "category": [
+        {
+          "id": "games",
+          "en": "Games",
+          "fa": "بازی‌ها"
+        }
+      ],
+      "technologies": [],
+      "links": [
+        {
+          "label": "CafeBazaar",
+          "url": "https://cafebazaar.ir/app/com.wd.nailermailer"
+        },
+        {
+          "label": "PlayStore",
+          "url": "https://play.google.com/store/apps/details?id=com.wd.nailermailer"
+        }
+      ],
+      "image": "assets/images/projects/nailer-mailer.jpg",
+      "featured": false
+    },
+    {
+      "id": "chain-masters",
+      "title": {
+        "en": "Chain Masters",
+        "fa": "Chain Masters"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A hyper-casual game.",
+        "fa": "بازی هایپرکژوال."
+      },
+      "category": [
+        {
+          "id": "games",
+          "en": "Games",
+          "fa": "بازی‌ها"
+        }
+      ],
+      "technologies": [],
+      "links": [
+        {
+          "label": "CafeBazaar",
+          "url": "https://cafebazaar.ir/app/com.wd.chainmasters"
+        },
+        {
+          "label": "PlayStore",
+          "url": "https://play.google.com/store/apps/details?id=com.wd.chainmasters"
+        }
+      ],
+      "image": "assets/images/projects/chain-masters.jpg",
+      "featured": false
+    },
+    {
+      "id": "adventure-island",
+      "title": {
+        "en": "Adventure Island",
+        "fa": "Adventure Island"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A hyper-casual game.",
+        "fa": "بازی هایپرکژوال."
+      },
+      "category": [
+        {
+          "id": "games",
+          "en": "Games",
+          "fa": "بازی‌ها"
+        }
+      ],
+      "technologies": [],
+      "links": [
+        {
+          "label": "PlayStore",
+          "url": "https://play.google.com/store/apps/details?id=com.licharstudio.adventureisland"
+        }
+      ],
+      "image": "assets/images/projects/adventure-island.jpg",
+      "featured": false
+    },
+    {
+      "id": "dr-pet",
+      "title": {
+        "en": "DR Pet",
+        "fa": "DR Pet"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A 2D educational game.",
+        "fa": "بازی آموزشی دوبعدی."
+      },
+      "category": [
+        {
+          "id": "games",
+          "en": "Games",
+          "fa": "بازی‌ها"
+        }
+      ],
+      "technologies": [],
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://youtu.be/-oLQaXbQtOo"
+        }
+      ],
+      "image": "assets/images/projects/dr-pet.jpg",
+      "featured": false
+    },
+    {
+      "id": "arcade-motorcycle-2p",
+      "title": {
+        "en": "Arcade Motorcycle Game (2-Player)",
+        "fa": "بازی دستگاه شهربازی دو نفره"
+      },
+      "client": {
+        "en": "",
+        "fa": ""
+      },
+      "description": {
+        "en": "A two-player arcade-cabinet motorcycle game.",
+        "fa": "بازی دستگاه شهربازی موتورسواری دو نفره."
+      },
+      "category": [
+        {
+          "id": "games",
+          "en": "Games",
+          "fa": "بازی‌ها"
+        }
+      ],
+      "technologies": [],
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://youtu.be/Xqarpz0siUI"
+        }
+      ],
+      "image": "assets/images/projects/arcade-motorcycle-2p.jpg",
+      "featured": false
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "siteName": { "en": "Mohammad Javad Gholizade", "fa": "محمدجواد قلی‌زاده" },
+    "title": {
+      "en": "Mohammad Javad Gholizade — Senior Unity Developer, XR Specialist",
+      "fa": "محمدجواد قلی‌زاده — توسعه‌دهنده ارشد یونیتی، متخصص XR"
+    },
+    "description": {
+      "en": "Senior Unity developer and XR specialist with 6+ years building VR/AR training simulations, multiplayer systems, and hyper-casual games for industrial, medical, and educational clients.",
+      "fa": "توسعه‌دهنده ارشد یونیتی و متخصص XR با بیش از ۶ سال تجربه در ساخت شبیه‌سازهای آموزشی VR/AR، سیستم‌های چندنفره و بازی‌های هایپرکژوال برای مشتریان صنعتی، پزشکی و آموزشی."
+    },
+    "canonical": "https://usef-farahmand.github.io/mohammadjavad-gholizade/",
+    "ogImage": "assets/images/og/og-image.jpg",
+    "keywords": {
+      "en": "Mohammad Javad Gholizade, Unity Developer, XR Specialist, VR Developer, AR Developer, Game Developer, Multiplayer, NetCode, WebXR, Virtual Reality, Augmented Reality",
+      "fa": "محمدجواد قلی‌زاده, توسعه‌دهنده یونیتی, متخصص XR, توسعه‌دهنده واقعیت مجازی, توسعه‌دهنده واقعیت افزوده, توسعه‌دهنده بازی, چندنفره, نت‌کد, وب‌ایکس‌آر"
+    }
+  },
+
+  "nav": {
+    "home": { "en": "Home", "fa": "خانه" },
+    "about": { "en": "About", "fa": "درباره من" },
+    "experience": { "en": "Experience", "fa": "سوابق کاری" },
+    "projects": { "en": "Projects", "fa": "پروژه‌ها" },
+    "skills": { "en": "Skills", "fa": "مهارت‌ها" },
+    "education": { "en": "Education", "fa": "تحصیلات" },
+    "awards": { "en": "Awards", "fa": "افتخارات" },
+    "contact": { "en": "Contact", "fa": "تماس با من" }
+  },
+
+  "hero": {
+    "eyebrow": { "en": "Senior Unity Developer — XR Specialist", "fa": "توسعه‌دهنده ارشد یونیتی — متخصص XR" },
+    "name": "Mohammad Javad Gholizade",
+    "nameFa": "محمدجواد قلی‌زاده",
+    "statement": {
+      "en": "6+ years building VR/AR training simulations and multiplayer worlds for industrial, medical, and educational clients — one level at a time.",
+      "fa": "بیش از ۶ سال ساخت شبیه‌سازهای آموزشی VR/AR و دنیاهای چندنفره برای مشتریان صنعتی، پزشکی و آموزشی — مرحله به مرحله."
+    },
+    "ctaPrimary": { "en": "View Projects", "fa": "مشاهده پروژه‌ها" },
+    "ctaSecondary": { "en": "Let's Connect", "fa": "در تماس باشیم" },
+    "scrollHint": { "en": "Press start", "fa": "برای شروع اسکرول کن" }
+  },
+
+  "about": {
+    "eyebrow": { "en": "About", "fa": "درباره من" },
+    "heading": { "en": "Player one: ready", "fa": "بازیکن یک: آماده" },
+    "paragraphs": [
+      {
+        "en": "A creative, driven developer with 6+ years of experience building VR/AR applications and serious games across industrial, educational, and medical domains.",
+        "fa": "توسعه‌دهنده‌ی خلاق و باانگیزه با بیش از ۶ سال تجربه در ساخت اپلیکیشن‌های واقعیت مجازی/افزوده و بازی‌های جدی در حوزه‌های صنعتی، آموزشی و پزشکی."
+      },
+      {
+        "en": "Specialized in multiplayer systems and 3D simulations, with a background in teaching and project-based collaboration with international clients.",
+        "fa": "متخصص در پیاده‌سازی سیستم‌های چندنفره و شبیه‌سازی‌های سه‌بعدی، دارای سابقه تدریس و همکاری پروژه‌ای با مشتریان بین‌المللی."
+      }
+    ],
+    "highlights": [
+      { "label": { "en": "Experience", "fa": "سابقه" }, "value": { "en": "6+ years", "fa": "بیش از ۶ سال" } },
+      { "label": { "en": "Focus", "fa": "حوزه تمرکز" }, "value": { "en": "VR / AR / XR Simulations", "fa": "شبیه‌سازی‌های VR / AR / XR" } },
+      { "label": { "en": "Main Tool", "fa": "ابزار اصلی" }, "value": { "en": "Unity", "fa": "Unity" } }
+    ]
+  },
+
+  "experience": {
+    "eyebrow": { "en": "Experience", "fa": "سوابق کاری" },
+    "heading": { "en": "Level history", "fa": "تاریخچه مراحل" },
+    "items": [
+      {
+        "id": "role-manshoor",
+        "company": { "en": "Manshoor Fanavari Farda (Knowledge-Based Co.)", "fa": "شرکت دانش‌بنیان منشور فناوری فردا" },
+        "role": { "en": "Virtual Reality Team Lead", "fa": "سرپرست تیم واقعیت مجازی" },
+        "location": { "en": "Mashhad, Iran", "fa": "مشهد، ایران" },
+        "dates": { "en": "Sep 2022 – Present", "fa": "شهریور ۱۴۰۱ – اکنون" },
+        "description": {
+          "en": "Leading VR projects for industrial and medical clients, from training simulators to multiplayer environments.",
+          "fa": "مدیریت پروژه‌های VR در حوزه‌های صنعتی و پزشکی، از شبیه‌سازهای آموزشی تا محیط‌های چندنفره."
+        },
+        "responsibilities": [
+          { "en": "Managing VR projects in industrial and medical domains", "fa": "مدیریت پروژه‌های VR در حوزه‌های صنعتی و پزشکی" },
+          { "en": "Delivering VR training simulators for National Iranian Gas Company, Isfahan Oil Refinery, TVTO, Mobarakeh Steel, Iranian Red Crescent, and others", "fa": "تحویل شبیه‌سازهای آموزشی VR برای شرکت ملی گاز، پالایشگاه نفت اصفهان و سازمان فنی‌وحرفه‌ای کشور، فولاد مبارکه اصفهان، هلال احمر و ..." },
+          { "en": "Developing an online meeting platform inside a VR environment", "fa": "توسعه سامانه جلسات آنلاین در محیط واقعیت مجازی" },
+          { "en": "Building a multiplayer VR environment project", "fa": "ساخت پروژه محیطی Multiplayer در VR" },
+          { "en": "Delivering award-winning XR projects internationally", "fa": "اجرای پروژه‌های موفق XR با جوایز بین‌المللی" },
+          { "en": "Leading the dev team and managing technical delivery", "fa": "رهبری تیم توسعه و مدیریت فنی پروژه‌ها" }
+        ],
+        "stage": "production"
+      },
+      {
+        "id": "role-freelance",
+        "company": { "en": "Freelance (Upwork, Fiverr, direct clients)", "fa": "فریلنس — پلتفرم‌های Upwork، Fiverr و پروژه‌محور" },
+        "role": { "en": "Unity Developer", "fa": "توسعه‌دهنده یونیتی" },
+        "location": { "en": "Remote", "fa": "دورکار" },
+        "dates": { "en": "Jul 2019 – Present", "fa": "تیر ۱۳۹۸ – اکنون" },
+        "description": {
+          "en": "Building hyper-casual, AR, and WebXR games, plus teaching game development at university level.",
+          "fa": "توسعه بازی‌های هایپرکژوال، AR و WebXR، همراه با تدریس توسعه بازی در سطح دانشگاهی."
+        },
+        "responsibilities": [
+          { "en": "Developing HyperCasual, AR, and WebXR games", "fa": "توسعه بازی‌های HyperCasual، AR و WebXR" },
+          { "en": "Building multiplayer games with Photon, Mirror, and NetCode", "fa": "ساخت بازی‌های چندنفره با Photon و Mirror و Netcode" },
+          { "en": "Implementing ads and monetization with AdMob", "fa": "پیاده‌سازی تبلیغات و درآمدزایی با AdMob" },
+          { "en": "Publishing games on Google Play and CafeBazaar", "fa": "انتشار بازی در گوگل‌پلی و کافه‌بازار" },
+          { "en": "Teaching game development at Islamic Azad University and Imam Reza International University", "fa": "تدریس توسعه بازی در دانشگاه آزاد اسلامی و دانشگاه بین‌المللی امام رضا (ع)" },
+          { "en": "Building a VR rehabilitation app with hand tracking for stroke patients", "fa": "ساخت نرم‌افزار VR توانبخشی با ردیابی دست برای بیماران سکته مغزی" }
+        ],
+        "stage": "production"
+      },
+      {
+        "id": "role-cyrusvision",
+        "company": { "en": "Xeptan – CyrusVision", "fa": "Xeptan - CyrusVision" },
+        "role": { "en": "Senior AR Developer", "fa": "توسعه‌دهنده ارشد AR" },
+        "location": { "en": "Rome, Italy (Remote)", "fa": "رم، ایتالیا (دورکار)" },
+        "dates": { "en": "Mar 2024 – Mar 2025", "fa": "اسفند ۱۴۰۲ – اسفند ۱۴۰۳" },
+        "description": {
+          "en": "Built an architectural AR app placing centimeter-accurate 3D models over buildings under construction.",
+          "fa": "ساخت اپلیکیشن AR معماری با جانمایی سه‌بعدی سانتی‌متری روی سازه‌های در حال ساخت."
+        },
+        "responsibilities": [
+          { "en": "Designing an architectural AR app with centimeter-level 3D placement on in-progress structures", "fa": "طراحی اپلیکیشن AR معماری با جانمایی سه‌بعدی سانتی‌متری روی سازه‌های در حال ساخت" },
+          { "en": "Building a direct AutoCAD-to-AR pipeline: model export, QR generation, and automatic conversion into the AR app", "fa": "توسعه ابزار خروجی مستقیم مدل از AutoCAD، تولید QR و تبدیل خودکار و فوری به اپ AR" },
+          { "en": "Speeding up review and decision-making on construction projects for engineering and architecture teams", "fa": "بهینه‌سازی فرآیند بازبینی و تصمیم‌گیری پروژه‌های ساختمانی، افزایش سرعت و دقت تیم‌های مهندسی و معماری" }
+        ],
+        "stage": "production"
+      },
+      {
+        "id": "role-lichar",
+        "company": { "en": "Lichar Studio", "fa": "استودیو Lichar" },
+        "role": { "en": "Game Developer", "fa": "توسعه‌دهنده بازی" },
+        "location": { "en": "", "fa": "" },
+        "dates": { "en": "2021 – 2022", "fa": "۱۴۰۰ – ۱۴۰۱" },
+        "description": {
+          "en": "Designed and shipped several hyper-casual games on the Play Store.",
+          "fa": "طراحی و انتشار چندین بازی هایپرکژوال در پلی‌استور."
+        },
+        "responsibilities": [
+          { "en": "Designing and publishing several hyper-casual games on the Play Store", "fa": "طراحی و انتشار چندین بازی هایپرکژوال در پلی‌استور" }
+        ],
+        "stage": "design"
+      },
+      {
+        "id": "role-white-designers",
+        "company": { "en": "White Designers Studio", "fa": "استودیو طراحان سفید" },
+        "role": { "en": "Unity Developer", "fa": "توسعه‌دهنده یونیتی" },
+        "location": { "en": "Mashhad, Iran", "fa": "مشهد، ایران" },
+        "dates": { "en": "Jul 2019 – Feb 2021", "fa": "تیر ۱۳۹۸ – بهمن ۱۳۹۹" },
+        "description": {
+          "en": "Designed and published hyper-casual games in collaboration with Dead Mage Studio.",
+          "fa": "طراحی و انتشار بازی‌های هایپرکژوال با همکاری استودیو Dead Mage."
+        },
+        "responsibilities": [
+          { "en": "Designing and publishing hyper-casual games in collaboration with Dead Mage Studio", "fa": "طراحی و انتشار بازی‌های هایپرکژوال با همکاری استودیو Dead Mage" },
+          { "en": "Building games in 2D, hyper-casual, and educational genres", "fa": "ساخت بازی در سبک‌های 2D_Game، hyperCasual، Educational" },
+          { "en": "Collaborating on programming and design workflows for Play Store titles", "fa": "همکاری در فرآیندهای برنامه‌نویسی و طراحی بازی برای مارکت پلی‌استور" }
+        ],
+        "stage": "design"
+      }
+    ]
+  },
+
+  "skills": {
+    "eyebrow": { "en": "Skills", "fa": "مهارت‌ها" },
+    "heading": { "en": "Inventory", "fa": "کوله‌پشتی ابزار" },
+    "categories": [
+      {
+        "name": { "en": "Technical Skills", "fa": "مهارت‌های فنی" },
+        "items": [
+          { "en": "Unity", "fa": "یونیتی", "level": { "en": "Advanced", "fa": "پیشرفته" } },
+          { "en": "C#", "fa": "سی‌شارپ", "level": { "en": "Advanced", "fa": "پیشرفته" } },
+          { "en": "VR / AR / XR", "fa": "VR / AR / XR", "level": { "en": "Advanced", "fa": "پیشرفته" } },
+          { "en": "NetCode", "fa": "نت‌کد", "level": { "en": "Advanced", "fa": "پیشرفته" } },
+          { "en": "WebXR", "fa": "وب‌ایکس‌آر", "level": { "en": "Advanced", "fa": "پیشرفته" } },
+          { "en": "Blender", "fa": "بلندر", "level": { "en": "Intermediate", "fa": "متوسط" } }
+        ]
+      },
+      {
+        "name": { "en": "Tools & Technologies", "fa": "ابزارها و فناوری‌ها" },
+        "items": [
+          { "en": "WebXR", "fa": "وب‌ایکس‌آر" },
+          { "en": "AdMob & Firebase", "fa": "AdMob و Firebase" },
+          { "en": "Game UI/UX Design", "fa": "طراحی رابط کاربری بازی" },
+          { "en": "3D Modeling", "fa": "مدل‌سازی سه‌بعدی" },
+          { "en": "Multiplayer Systems (NetCode, Mirror)", "fa": "سیستم‌های چندنفره (NetCode، Mirror)" },
+          { "en": "VR / AR / MR / XR", "fa": "واقعیت مجازی، افزوده، ترکیبی و گسترده" },
+          { "en": "Mobile Ad Integration", "fa": "ادغام تبلیغات در بازی‌های موبایل" }
+        ]
+      }
+    ]
+  },
+
+  "education": {
+    "eyebrow": { "en": "Education", "fa": "تحصیلات" },
+    "heading": { "en": "Tutorial stage", "fa": "مرحله آموزشی" },
+    "items": [
+      {
+        "institution": { "en": "Imam Reza International University", "fa": "دانشگاه بین‌المللی امام رضا (ع)" },
+        "degree": { "en": "B.Sc. Computer Engineering — Software", "fa": "کارشناسی مهندسی کامپیوتر – نرم‌افزار" },
+        "dates": { "en": "", "fa": "" },
+        "description": { "en": "Mashhad, Iran", "fa": "مشهد" }
+      }
+    ]
+  },
+
+  "awards": {
+    "eyebrow": { "en": "Awards", "fa": "افتخارات" },
+    "heading": { "en": "High score", "fa": "امتیاز برتر" },
+    "items": [
+      {
+        "title": { "en": "Winner, International Serious Games Festival", "fa": "برنده جشنواره بین‌المللی بازی‌های جدی" },
+        "year": "2023 (1402)"
+      },
+      {
+        "title": { "en": "Nominee & Finalist, XR Awards London", "fa": "نامزد و فینالیست XR Awards لندن" },
+        "year": "2024",
+        "url": "https://xrawards.aixr.org/winners-and-finalists-2024/"
+      }
+    ]
+  },
+
+  "contact": {
+    "eyebrow": { "en": "Contact", "fa": "تماس" },
+    "heading": { "en": "Insert coin to continue", "fa": "برای ادامه سکه بینداز" },
+    "subtext": {
+      "en": "Open to VR/AR projects, multiplayer builds, or just talking shop about game dev — reach out any time.",
+      "fa": "برای پروژه‌های VR/AR، ساخت سیستم‌های چندنفره یا حتی یک گفت‌وگوی خوب درباره توسعه بازی، هر وقت خواستی پیام بده."
+    },
+    "email": "mjgholizade.iftp@gmail.com",
+    "phone": "+98 992 273 4864",
+    "phoneSecondary": "+98 933 756 3511",
+    "linkedin": "https://www.linkedin.com/in/mohamad-javad-gholizade/",
+    "website": "",
+    "emailLabel": { "en": "Email", "fa": "ایمیل" },
+    "phoneLabel": { "en": "Phone", "fa": "تلفن" },
+    "linkedinLabel": { "en": "LinkedIn", "fa": "لینکدین" },
+    "websiteLabel": { "en": "Website", "fa": "وب‌سایت" }
+  },
+
+  "projectsSection": {
+    "eyebrow": { "en": "Selected Projects", "fa": "پروژه‌های منتخب" },
+    "heading": { "en": "World select", "fa": "انتخاب مرحله" },
+    "filterAll": { "en": "All", "fa": "همه" },
+    "filterGroupLabel": { "en": "Filter projects", "fa": "فیلتر پروژه‌ها" },
+    "viewProject": { "en": "View project", "fa": "مشاهده پروژه" },
+    "imageAltFallback": { "en": "Project artwork placeholder", "fa": "جای‌نگهدار تصویر پروژه" },
+    "moreNote": {
+      "en": "20+ more VR, AR, XR, and multiplayer projects not listed here.",
+      "fa": "بیش از ۲۰ پروژه دیگر در حوزه VR، AR، XR و چندنفره که اینجا لیست نشده‌اند."
+    },
+    "linksNote": {
+      "en": "Some links may have expired.",
+      "fa": "برخی لینک‌ها ممکن است منقضی شده باشند."
+    }
+  },
+
+  "footer": {
+    "rights": { "en": "All rights reserved.", "fa": "تمامی حقوق محفوظ است." },
+    "builtWith": { "en": "Unity Developer & XR Specialist portfolio.", "fa": "نمونه‌کار توسعه‌دهنده یونیتی و متخصص XR." },
+    "madeBy": { "en": "Built by", "fa": "ساخته‌شده توسط" },
+    "madeByName": "Jolly Panda Studio",
+    "madeByUrl": "https://jollypanda.ir"
+  },
+
+  "ui": {
+    "skipLink": { "en": "Skip to content", "fa": "رفتن به محتوا" },
+    "navLabel": { "en": "Primary", "fa": "ناوبری اصلی" },
+    "menuOpen": { "en": "Open menu", "fa": "باز کردن منو" },
+    "menuClose": { "en": "Close menu", "fa": "بستن منو" },
+    "langSwitch": { "en": "فارسی", "fa": "English" },
+    "backToTop": { "en": "Back to top", "fa": "بازگشت به بالا" }
+  }
+}

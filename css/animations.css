@@ -1,0 +1,76 @@
+/* =========================================================
+   Animations
+   ========================================================= */
+
+/* ---------- Hero entrance ---------- */
+.hero__eyebrow, .hero__name, .hero__statement, .hero__actions {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: rise .7s var(--ease) forwards;
+}
+.hero__eyebrow  { animation-delay: .05s; }
+.hero__name     { animation-delay: .15s; }
+.hero__statement{ animation-delay: .28s; }
+.hero__actions  { animation-delay: .4s; }
+
+@keyframes rise {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Platformer scene motion ---------- */
+.cloud--a { animation: drift 22s linear infinite; }
+.cloud--b { animation: drift 28s linear infinite -8s; }
+.cloud--c { animation: drift 26s linear infinite -14s; }
+@keyframes drift {
+  0%   { translate: 0 0; }
+  50%  { translate: 18px -6px; }
+  100% { translate: 0 0; }
+}
+
+.qblock--a, .qblock--b { animation: bob 1.8s ease-in-out infinite; }
+.qblock--b { animation-delay: .5s; }
+@keyframes bob {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -8px; }
+}
+
+.coin--a { animation: coin-flip 1.6s linear infinite; }
+.coin--b { animation: coin-flip 1.6s linear infinite .4s; }
+.coin--c { animation: coin-flip 1.6s linear infinite .8s; }
+@keyframes coin-flip {
+  0%, 100% { transform: scaleX(1); }
+  50% { transform: scaleX(0.15); }
+}
+
+/* ---------- Scroll reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity .6s var(--ease), transform .6s var(--ease);
+}
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+.reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .55s var(--ease), transform .55s var(--ease);
+}
+.reveal-stagger.is-visible > * { opacity: 1; transform: translateY(0); }
+.reveal-stagger.is-visible > *:nth-child(1) { transition-delay: .02s; }
+.reveal-stagger.is-visible > *:nth-child(2) { transition-delay: .08s; }
+.reveal-stagger.is-visible > *:nth-child(3) { transition-delay: .14s; }
+.reveal-stagger.is-visible > *:nth-child(4) { transition-delay: .2s; }
+.reveal-stagger.is-visible > *:nth-child(5) { transition-delay: .26s; }
+.reveal-stagger.is-visible > *:nth-child(6) { transition-delay: .32s; }
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .hero__eyebrow, .hero__name, .hero__statement, .hero__actions {
+    animation: none; opacity: 1; transform: none;
+  }
+  .cloud--a, .cloud--b, .cloud--c, .qblock--a, .qblock--b, .coin--a, .coin--b, .coin--c {
+    animation: none !important;
+  }
+  .reveal, .reveal-stagger > * { transition: none; opacity: 1; transform: none; }
+  * { animation-duration: .001s !important; transition-duration: .001s !important; }
+}
