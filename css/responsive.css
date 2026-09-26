@@ -62,8 +62,8 @@
   .hero__actions { flex-direction: column; align-items: stretch; }
   .hero__scene { opacity: .25; }
   .project-grid { grid-template-columns: 1fr; }
-  .contact__links { flex-direction: column; align-items: stretch; }
-  .contact__links a, .contact__links span { justify-content: center; }
+  .contact__links { gap: .7rem; }
+  .contact__links a { width: 48px; height: 48px; }
 }
 
 @media (max-width: 375px) {

@@ -210,16 +210,45 @@ const I18N = (() => {
       .join("");
   }
 
+  const ICONS = {
+    email:
+      '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.5 7.8 6.2L19.8 6H4.2zM20 8.3l-7.4 5.9a1 1 0 0 1-1.2 0L4 8.3V18h16V8.3z"/></svg>',
+    phone:
+      '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1.1L6.6 10.8z"/></svg>',
+    linkedin:
+      '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5.001zM.5 8.98h4.96V23H.5V8.98zM8.34 8.98h4.76v1.92h.07c.66-1.25 2.28-2.57 4.7-2.57 5.03 0 5.96 3.31 5.96 7.62V23h-4.96v-6.24c0-1.49-.03-3.4-2.07-3.4-2.08 0-2.4 1.62-2.4 3.29V23H8.34V8.98z"/></svg>',
+    website:
+      '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 8h-3.05a15.7 15.7 0 0 0-1.2-5.32A8.03 8.03 0 0 1 18.9 10zM12 4.06c.9 1.2 1.7 3.15 1.98 5.94h-3.96c.28-2.79 1.08-4.74 1.98-5.94zM4.26 12h3.79c.07 1.6.32 3.1.72 4.4A8.02 8.02 0 0 1 4.26 12zm0-2a8.02 8.02 0 0 1 4.51-6.4c-.4 1.3-.65 2.8-.72 4.4H4.26zm5.76 0c.07-1.94.34-3.66.74-5.02A7.98 7.98 0 0 0 8.6 10h1.42zm0 2H8.6a7.98 7.98 0 0 0 2.16 5.02c-.4-1.36-.67-3.08-.74-5.02zm2 5.94c-.9-1.2-1.7-3.15-1.98-5.94h3.96c-.28 2.79-1.08 4.74-1.98 5.94zM15.35 16.4c.4-1.3.65-2.8.72-4.4h3.79a8.02 8.02 0 0 1-4.51 6.4h1.2-1.2c.4-1.3.65-2.8.72-4.4h-.72z"/></svg>',
+  };
+
   function renderContact() {
     const wrap = document.getElementById("contact-links");
     if (!wrap) return;
     const c = data.contact;
     const links = [];
-    links.push(`<a href="mailto:${c.email}">${escapeHtml(c.emailLabel[lang])} — ${c.email}</a>`);
-    if (c.phone) links.push(`<a href="tel:${c.phone.replace(/\s+/g, "")}">${escapeHtml(c.phoneLabel[lang])} — ${c.phone}</a>`);
-    if (c.phoneSecondary) links.push(`<a href="tel:${c.phoneSecondary.replace(/\s+/g, "")}">${escapeHtml(c.phoneLabel[lang])} — ${c.phoneSecondary}</a>`);
-    if (c.linkedin) links.push(`<a href="${c.linkedin}" target="_blank" rel="noopener">${escapeHtml(c.linkedinLabel[lang])}</a>`);
-    if (c.website) links.push(`<a href="${c.website}" target="_blank" rel="noopener">${escapeHtml(c.websiteLabel[lang])}</a>`);
+    links.push(
+      `<a href="mailto:${c.email}" title="${escapeHtml(c.emailLabel[lang])}: ${c.email}" aria-label="${escapeHtml(c.emailLabel[lang])}: ${c.email}">${ICONS.email}</a>`
+    );
+    if (c.phone) {
+      links.push(
+        `<a href="tel:${c.phone.replace(/\s+/g, "")}" title="${escapeHtml(c.phoneLabel[lang])}: ${c.phone}" aria-label="${escapeHtml(c.phoneLabel[lang])}: ${c.phone}">${ICONS.phone}</a>`
+      );
+    }
+    if (c.phoneSecondary) {
+      links.push(
+        `<a href="tel:${c.phoneSecondary.replace(/\s+/g, "")}" title="${escapeHtml(c.phoneLabel[lang])}: ${c.phoneSecondary}" aria-label="${escapeHtml(c.phoneLabel[lang])}: ${c.phoneSecondary}">${ICONS.phone}</a>`
+      );
+    }
+    if (c.linkedin) {
+      links.push(
+        `<a href="${c.linkedin}" target="_blank" rel="noopener" title="${escapeHtml(c.linkedinLabel[lang])}" aria-label="${escapeHtml(c.linkedinLabel[lang])}">${ICONS.linkedin}</a>`
+      );
+    }
+    if (c.website) {
+      links.push(
+        `<a href="${c.website}" target="_blank" rel="noopener" title="${escapeHtml(c.websiteLabel[lang])}" aria-label="${escapeHtml(c.websiteLabel[lang])}">${ICONS.website}</a>`
+      );
+    }
     wrap.innerHTML = links.join("");
   }
 

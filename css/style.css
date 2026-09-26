@@ -500,16 +500,17 @@ html[dir="rtl"] .project-card__client { text-transform: none; letter-spacing: 0;
 .contact { text-align: center; max-width: 680px; }
 .contact h2 { color: #fff; }
 .contact__subtext { color: rgba(255,255,255,.85); margin-block: 1.2rem 2.2rem; font-size: var(--step-1); }
-.contact__links { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
-.contact__links a, .contact__links span {
-  display: inline-flex; align-items: center; gap: .6rem;
+.contact__links { display: flex; flex-wrap: nowrap; justify-content: center; gap: 1rem; }
+.contact__links a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 56px; height: 56px;
+  flex: 0 0 auto;
+  border-radius: 50%;
   border: 3px solid #fff;
-  padding: .8rem 1.4rem;
-  font-weight: 700; font-size: var(--step--1);
   color: #fff;
   transition: all var(--dur-s) var(--ease);
 }
-.contact__links a:hover { background: #fff; color: var(--ink); transform: translateY(-2px); }
+.contact__links a:hover { background: #fff; color: var(--ink); transform: translateY(-3px); }
 
 /* ---------- Footer ---------- */
 .site-footer { border-top: var(--pixel) solid var(--ink); padding-block: 2rem; background: var(--surface); }
